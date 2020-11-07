@@ -9,6 +9,10 @@ The objective of this project is to develop a computationally efficient machine 
 
 Contextualization of the problem.
 
+## Related Work
+
+Talk a little about the state of the art
+
 ## Goals
 
 What we expect to see as results?
