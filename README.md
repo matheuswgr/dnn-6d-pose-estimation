@@ -2,7 +2,7 @@
 
 ## Introduction (Pivoto)  
 
-Object detection has always been an important problem in computer vision. This problem like many others, witnesses a large shift due to the advent of deep learning. With focus on intelligent manipulation robots applications, the objective of this project is to develop a computationally efficient machine learning model for semantic segmentation based object 6D pose estimation from RGB images.  
+Object detection has always been an important problem in computer vision. This problem, like many others, witnesses a large shift due to the advent of deep learning. With focus on intelligent manipulation robots applications, the objective of this project is to develop a computationally efficient machine learning model for semantic segmentation based object 6D pose estimation from RGB images.  
 
 ## Theme / Scope / Motivation (Wagner)
 
