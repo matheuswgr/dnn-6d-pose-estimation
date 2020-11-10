@@ -11,7 +11,11 @@ Contextualization of the problem = computer vision, focusing on intelligent mani
 
 ## Related Work (Lobo)
 
-Talk a little about the state of the art
+There are plenty of publications about the subject with numerous approaches. For examples, some networks developed for the task are PoseNet, PoseCNN and PVNet. All of them use CNNs in their architecture (first introduced by PoseNet).
+
+However, the way that the network reaches to a final 6D pose value varies in each net. PoseNet directly regress a 6D camera pose from a single RGB image, PoseCNN localizes the object in the 2D image and predicts their depths to obtain the full pose while PVNet uses a keypoint-based method. These are only some examples of nets.
+The PVNet that was published in 2018 has reached the impressive 86.27% accuracy using average 3D distance of model points (ADD) metrics with a modification to consider symmetric objects (ADD-S) in LINEMOD dataset.
+
 
 ## Goals (Wagner)
 
@@ -41,9 +45,7 @@ Frameworks, datasets, libraries etc.
 
 ## Hardware Specs (Lobo)
 
-Cloud TPU. (training time and computation (feedfoward) time)
-GPU for benchmark. (training time and computation (feedfoward) time)
-CPU (computation (feedfoward time))
+Cloud TPU and GPU provided in Google Colab will be used. The goal is evaluate training time and computation (feedfoward) time in GPU and TPU and also evaluate the feedfoward time in CPU. 
 
 ## Bibliography
 
