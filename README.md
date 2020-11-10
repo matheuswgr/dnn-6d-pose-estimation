@@ -2,7 +2,7 @@
 
 ## Introduction (Pivoto)  
 
-The objective of this project is to develop a computationally efficient machine learning model for semantic segmentation based object 6D pose estimation from RGB images. 
+Object detection has always been an important problem in computer vision. This problem like many others, witnesses a large shift due to the advent of deep learning. With focus on intelligent manipulation robots applications, the objective of this project is to develop a computationally efficient machine learning model for semantic segmentation based object 6D pose estimation from RGB images.  
 
 ## Theme / Scope / Motivation (Wagner)
 
@@ -23,6 +23,7 @@ Our goal is to achieve accuracies up to +-1% of related work speedup greater tha
 What we expect to see as results?
 
 ## Methodology (Pivoto)
+With our dataset, the first part will consist of training a convolutional network for semantic labeling (encoder and decoder) and evaluete its metrics. After that, the plan is to use this network together with a linear regression model for the pose estimation and, again, evaluate its metrics. With the base of our process defined, the goal is to apply each technique of optmization separatly, determinining the sensibility and calibration of hyperparameters and evalueting its metrics. Finally, after refining the whole process, we will apply all of the techniques together and assess the final results.
 
 Pegar o dataset
 Treinar uma rede convolucional pra segmentação semantica (encoder e decoder)
